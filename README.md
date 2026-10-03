@@ -1,3 +1,5 @@
+![Predictive ER Admission Engine](images/prae_banner.png)
+
 # Predictive ER Admission Engine
 
 Machine learning model that predicts, **at the moment of triage**, whether an emergency department patient will need an inpatient bed, giving hospitals a head start on bed logistics hours before an admission order is written.
