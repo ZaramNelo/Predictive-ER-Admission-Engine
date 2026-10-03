@@ -1,0 +1,14 @@
+# Data (download from Kaggle)
+data/
+*.parquet
+*.csv
+*.rdata
+*.RData
+
+# Secrets
+kaggle.json
+.env
+
+# Notebook / Python cruft
+.ipynb_checkpoints/
+__pycache__/
