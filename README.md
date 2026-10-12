@@ -12,7 +12,7 @@ Canadian emergency departments face chronic bed shortages. Patients who need adm
 
 ## The approach
 
-The moment a triage nurse records vitals and acuity, the model outputs a probability that the patient will be admitted. Bed management teams can use high-risk flags to start sourcing beds early.
+The moment a triage nurse records vitals, acuity and chief complaint, the model outputs a probability that the patient will be admitted. Bed management teams can use high-risk flags to start sourcing beds early.
 
 Design principles:
 - **Triage-time features only.** Nothing recorded after triage (labs, imaging, physician notes), to avoid data leakage.
@@ -114,7 +114,7 @@ images/                    Figures for this README
 ## How to run
 
 1. Open `notebooks/01_data_loading.ipynb` in Google Colab.
-2. Add your Kaggle credentials to Colab Secrets (🔑 in the sidebar).
+2. Add your Kaggle credentials to Colab Secrets (in the sidebar).
 3. Run notebooks 01 → 04 in order. Data is cached to your Google Drive after notebook 01.
 
 ## Roadmap
